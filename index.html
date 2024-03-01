@@ -1,0 +1,479 @@
+<!-- index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/styles/style.css" />
+    <title>SCSS Project</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="header__nav">
+        <div>
+          <img class="header__logo" src="./src/imgs/logo.png" alt="logo" />
+          <p>NOT APPLE</p>
+        </div>
+        <ul id="menu" class="header__ul">
+          <li><a href="./home.html">Home</a><span></span></li>
+          <li><a href="./shop.html">Shop</a><span></span></li>
+          <li><a href="./about.html">About</a><span></span></li>
+          <li><a href="./contact-us">Contact Us</a><span></span></li>
+        </ul>
+        <button onclick="mobilMenu()" class="mobile__menu">☰</button>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <div class="hero__content">
+        <h1 id="headline-lbl">
+          Level up your style:<br />The all-new <u>iPhone 13</u> is here!
+        </h1>
+        <p>Lightning-fast performance to Power through everyday tasks.</p>
+        <button
+          onclick="location.href = '#iphone-13'"
+          id="headline-btn"
+          aria-labelledby="headline-lbl headline-btn"
+          class="hero__content--largeFont"
+        >
+          Buy Now!
+        </button>
+      </div>
+    </section>
+
+    <section class="featured">
+      <h2 class="featured__heading">Featured Products</h2>
+      <div class="featured__wrap">
+        <div id="featured-ani">
+          <div id="iphone-13">
+            <div class="product__img">
+              <img src="./src/imgs/iphone.jpeg" alt="iphone" />
+            </div>
+            <div class="product__content">
+              <h3 id="iphone13-lbl">iPhone 13</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum
+                et distinctio, unde a nihil similique sapiente autem esse est
+                nisi labore, ad, veniam quo vitae repudiandae quae ratione sunt.
+                Illum.
+              </p>
+              <button
+                id="iphone13-btn"
+                aria-labelledby="iphone13-lbl iphone13-btn"
+              >
+                Learn More...
+              </button>
+            </div>
+          </div>
+          <div>
+            <div class="product__img">
+              <img src="./src/imgs/watch.png" alt="watch" />
+            </div>
+            <div class="product__content">
+              <h3 id="watch-lbl">watch</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
+                quidem sit quibusdam blanditiis. Ea cumque veritatis maxime
+                tempora tempore ex. Molestiae vel quo maxime, porro officia
+                alias adipisci excepturi et?
+              </p>
+              <button id="watch-btn" aria-labelledby="watch-lbl watch-btn">
+                Learn More...
+              </button>
+            </div>
+          </div>
+
+          <div>
+            <div class="product__img">
+              <img src="./src/imgs/airpods.jpeg" alt="AirPods" />
+            </div>
+            <div class="product__content">
+              <h3 id="airpods-lbl">AirPods</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
+                quidem sit quibusdam blanditiis. Ea cumque veritatis maxime
+                tempora tempore ex. Molestiae vel quo maxime, porro officia
+                alias adipisci excepturi et?
+              </p>
+              <button
+                id="airpods-btn"
+                aria-labelledby="airpods-lbl airpods-btn"
+              >
+                Learn More...
+              </button>
+            </div>
+          </div>
+          <div>
+            <div class="product__img">
+              <img src="./src/imgs/cable.jpeg" alt="Cable" />
+            </div>
+            <div class="product__content">
+              <h3 id="cable-lbl">Lightning to USB</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
+                quidem sit quibusdam blanditiis. Ea cumque veritatis maxime
+                tempora tempore ex. Molestiae vel quo maxime, porro officia
+                alias adipisci excepturi et?
+              </p>
+              <button id="cable-btn" aria-labelledby="cable-lbl cable-btn">
+                Learn More...
+              </button>
+            </div>
+          </div>
+          <div>
+            <div class="product__img">
+              <img src="./src/imgs/AirTag.jpeg" alt="AirTag" />
+            </div>
+            <div class="product__content">
+              <h3 id="AirTag -lbl">AirTag</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
+                quidem sit quibusdam blanditiis. Ea cumque veritatis maxime
+                tempora tempore ex. Molestiae vel quo maxime, porro officia
+                alias adipisci excepturi et?
+              </p>
+              <button id="AirTag-btn" aria-labelledby="AirTag-lbl AirTag-btn">
+                Learn More...
+              </button>
+            </div>
+          </div>
+          <div>
+            <div class="product__img">
+              <img src="./src/imgs/HomePod.jpeg" alt="HomePod" />
+            </div>
+            <div class="product__content">
+              <h3 id="HomePod-lbl">HomePod</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
+                quidem sit quibusdam blanditiis. Ea cumque veritatis maxime
+                tempora tempore ex. Molestiae vel quo maxime, porro officia
+                alias adipisci excepturi et?
+              </p>
+              <button
+                id="HomePod-btn"
+                aria-labelledby="HomePod-lbl HomePod-btn"
+              >
+                Learn More...
+              </button>
+            </div>
+          </div>
+          <div>
+            <div class="product__img">
+              <img src="./src/imgs/Wallet.jpeg" alt="Wallet" />
+            </div>
+            <div class="product__content">
+              <h3 id="Wallet-lbl">Wallet</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
+                quidem sit quibusdam blanditiis. Ea cumque veritatis maxime
+                tempora tempore ex. Molestiae vel quo maxime, porro officia
+                alias adipisci excepturi et?
+              </p>
+              <button id="Wallet-btn" aria-labelledby="Wallet-lbl Wallet-btn">
+                Learn More...
+              </button>
+            </div>
+          </div>
+          <div>
+            <div class="product__img">
+              <img src="./src/imgs/Charging Pad.jpeg" alt="Charging Pad" />
+            </div>
+            <div class="product__content">
+              <h3 id="Charging Pad-lbl">Charging Pad</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
+                quidem sit quibusdam blanditiis. Ea cumque veritatis maxime
+                tempora tempore ex. Molestiae vel quo maxime, porro officia
+                alias adipisci excepturi et?
+              </p>
+              <button
+                id="Charging Pad-btn"
+                aria-labelledby="Charging Pad-lbl Charging Pad-btn"
+              >
+                Learn More...
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="reviews">
+      <h2 class="reviews__heading">Customer Reviews</h2>
+      <div class="reviews__wrap">
+        <div id="reviews-ani">
+          <div>
+            <div>
+              <img
+                class="reviews__img"
+                src="./src/imgs/profile.png"
+                alt="profile"
+              />
+              <div class="reviews__user">
+                <span><strong>Mohammed</strong> </span>
+                <span>★★★★☆</span>
+                <span>Product: iPhone 13</span>
+              </div>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Architecto et cumque nam fugit placeat veritatis ratione modi
+              mollitia qui, fugiat aut, consequuntur facere perspiciatis magnam
+              eligendi odio non eveniet quaerat.
+            </p>
+          </div>
+
+          <div>
+            <div>
+              <img
+                class="reviews__img"
+                src="./src/imgs/profile.png"
+                alt="profile"
+              />
+              <div class="reviews__user">
+                <span><strong>Abdullah</strong> </span>
+                <span>★★☆☆☆</span>
+                <span>Product: AirPods</span>
+              </div>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Architecto et cumque nam fugit placeat veritatis ratione modi
+              mollitia qui, fugiat aut, consequuntur facere perspiciatis magnam
+              eligendi odio non eveniet quaerat.
+            </p>
+          </div>
+
+          <div>
+            <div>
+              <img
+                class="reviews__img"
+                src="./src/imgs/profile.png"
+                alt="profile"
+              />
+              <div class="reviews__user">
+                <span><strong>Khalid</strong> </span>
+                <span>★★★★☆</span>
+                <span>Product: Lightning to USB Cable</span>
+              </div>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Architecto et cumque nam fugit placeat veritatis ratione modi
+              mollitia qui, fugiat aut, consequuntur facere perspiciatis magnam
+              eligendi odio non eveniet quaerat.
+            </p>
+          </div>
+
+          <div>
+            <div>
+              <img
+                class="reviews__img"
+                src="./src/imgs/profile.png"
+                alt="profile"
+              />
+              <div class="reviews__user">
+                <span><strong>Mohammed</strong> </span>
+                <span>★★★★☆</span>
+                <span>Product: iPhone 13</span>
+              </div>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Architecto et cumque nam fugit placeat veritatis ratione modi
+              mollitia qui, fugiat aut, consequuntur facere perspiciatis magnam
+              eligendi odio non eveniet quaerat.
+            </p>
+          </div>
+
+          <div>
+            <div>
+              <img
+                class="reviews__img"
+                src="./src/imgs/profile.png"
+                alt="profile"
+              />
+              <div class="reviews__user">
+                <span><strong>Mohammed</strong> </span>
+                <span>★★★★☆</span>
+                <span>Product: iPhone 13</span>
+              </div>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Architecto et cumque nam fugit placeat veritatis ratione modi
+              mollitia qui, fugiat aut, consequuntur facere perspiciatis magnam
+              eligendi odio non eveniet quaerat.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="gallery">
+      <div class="headline__wrap">
+        <p class="app__headline">Download Our App<br />For Easy Shopping</p>
+        <img class="app_store" src="./src/imgs/app/store.webp" alt="" />
+      </div>
+
+      <div class="app">
+        <img class="app__iphone" src="./src/imgs/app/iphone.png" alt="" />
+        <div class="app__layout">
+          <span>
+            <img src="./src/imgs/app/smartphone.png" alt="" />
+            <img src="./src/imgs/app/headphones.png" alt="" />
+            <img src="./src/imgs/app/smart-watch.png" alt="" />
+            <img src="./src/imgs/app/phone-charger.png" alt="" />
+          </span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </section>
+
+    <section class="newsletter">
+      <h2 id="newsletter-lbl" class="newsletter__heading">
+        Subscribe to Our Newsletter
+      </h2>
+      <div class="newsletter__wrap">
+        <div class="news-letter-card">
+          <div>
+            <img
+              class="newsletter__img"
+              src="./src/imgs/email.webp"
+              alt="emailIcon"
+            />
+          </div>
+          <hr />
+          <div class="form__wrap">
+            <form method="git" action="thank-you.html">
+              <div>
+                <div>
+                  <label for="name">Enter Your Name:</label>
+                  <input type="text" name="name" id="name" />
+                </div>
+                <div>
+                  <label for="email">Enter Your Email:&nbsp;</label>
+                  <input type="email" name="email" id="email" />
+                </div>
+              </div>
+              <div>
+                <div>
+                  <input
+                    checked
+                    type="checkbox"
+                    name="all-promotions"
+                    id="all-promotions"
+                  />
+                  <label for="all-promotions"
+                    >Subscribe to all promotions</label
+                  >
+                </div>
+                <div>
+                  <input
+                    type="checkbox"
+                    name="important-promotions"
+                    id="important-promotions"
+                  />
+                  <label for="important-promotions"
+                    >Subscribe to important promotions only</label
+                  >
+                </div>
+              </div>
+              <button
+                id="form-btn"
+                aria-labelledby="newsletter-lbl form-btn"
+                type="submit"
+              >
+                Submit
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div>
+        <div>
+          <h3>Info</h3>
+          <ul>
+            <li role="treeitem"><a href="contact-us.html">Contact Us</a></li>
+            <li><a href="">Forms</a></li>
+            <li><a href="">FAQ</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Pages</h3>
+          <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./shop.html">Shop</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Social media</h3>
+          <ul class="social">
+            <li>
+              <a href=""
+                ><img
+                  class="reviews__img"
+                  src="./src/imgs/twitter.png"
+                  alt="instagram"
+                />&nbsp;&nbsp;twitter</a
+              >
+            </li>
+            <li>
+              <a href=""
+                ><img
+                  class="reviews__img"
+                  src="./src/imgs/instagram.png"
+                  alt="instagram"
+                />&nbsp;&nbsp;instagram</a
+              >
+            </li>
+            <li>
+              <a href=""
+                ><img
+                  class="reviews__img"
+                  src="./src/imgs/linkedin.png"
+                  alt="instagram"
+                />&nbsp;&nbsp;linkedin</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      const mobilMenu = () => {
+        let menu = document.getElementById("menu");
+        console.log(menu.classList.contains("nav-links-active"));
+        if (!menu.classList.contains("nav-links-active")) {
+          menu.classList.add("nav-links-active");
+        } else {
+          menu.classList.remove("nav-links-active");
+        }
+      };
+
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+          const element = entry.target;
+          const children = element.children;
+          for (let i = 0; i < children.length; i++) {
+            children[i].classList.toggle("featured-active");
+          }
+        });
+      });
+
+      observer.observe(document.getElementById("featured-ani"));
+      observer.observe(document.getElementById("reviews-ani"));
+    </script>
+  </body>
+</html>
