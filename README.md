@@ -1,80 +1,25 @@
-# Assignment: E-commerce Landing Page - HTML/CSS/SASS/Animation
+# E-commerce Landing Page Repository
 
+This repository contains the code for an E-commerce landing page. The landing page is developed using HTML, CSS and Animation. The repository is organized into three main sections, each focusing on a different aspect of the landing page.
 
-## Sub-Assignment: Develop an Ecommerce Landing Page (HTML & Web Accessibility)
+## Section 1: HTML & Web Accessibility
 
+This section contains the HTML code for the landing page, which includes:
 
-### Level 1: Basic Requirements	
-- Create a basic Ecommerce landing page with HTML which should include:
-- A header section with a logo and navigation menu.
-- A hero section with a catchy headline, subheading, and a call-to-action button.
-- A product showcase section with images, titles, and brief descriptions of featured products.
-- Incorporate customer reviews or testimonials to build trust and credibility.
-- Integrate a newsletter subscription form to capture user email addresses for marketing purposes.
-- A footer section with links to important pages, contact information, and social media icons.
-- Conduct accessibility testing using automated tools and assistive technologies, and fix any identified issues.
+- **Header**: This includes a logo and a navigation menu.
+- **Hero Section**: This features a catchy headline, a subheading, and a call-to-action button.
+- **Product Showcase**: This displays images, titles, and brief descriptions of featured products.
+- **Customer Reviews/Testimonials**: This helps build trust and credibility.
+- **Newsletter Subscription Form**: This captures user email addresses for marketing purposes.
+- **Footer**: This includes links to important pages, contact information, and social media icons.
 
+The HTML code is tested for accessibility using automated tools and assistive technologies, and any identified issues are fixed.
 
-### Level 2: Additional Requirements
+## Section 2: CSS Styling
 
+This section contains the CSS code for styling the landing page. The styling includes:
 
-Implement the following in addition to the basic requirements:
-
-
-- Implement ARIA (Accessible Rich Internet Applications) attributes to enhance the accessibility of interactive elements such as buttons, menus, and forms.
-- Use proper form labeling techniques, associating labels with their respective form controls.
-- Ensure that the website is fully navigable and usable using only a keyboard, without relying on mouse interactions.
-
-
-### Level 3: Bonus Requirements (Optional)
-
-
-Peer Review:
-- Review the code and implementation of 2 assignments from other participants.
-- Provide constructive feedback and suggestions for improvement.
-
-
-`Please note that the bonus requirements and reviews are optional and can be completed if you have additional time and advanced skills.`
-
-
-Happy coding!
-
-
-
-
-## Sub-assignment: CSS Styling
-
-
-### Level 1: Basic Requirements
-- Implement a sticky header or footer to ensure navigation or important information remains visible while scrolling.
-- Create a responsive layout using CSS Grid or Flexbox to ensure proper alignment and positioning of page elements.
-
-
-### Level 2: Additional Requirements
-- Implement a responsive design that adapts to different screen sizes and devices using media queries.
-- Implement CSS animations or transitions to enhance user interactions and visual feedback.
-
-
-### Level 3: Bonus Requirements (Optional)
-
-
-Peer Review
-
-
-## Sub-assignment 3: Sass Integration
-
-
-### Level 1: Basic Requirements
-- Use variables in Sass to define and reuse common values like colors, fonts, or spacing.
-- Use nesting to organize styles within different sections or components of the landing page.
-
-
-### Level 2: Additional Requirements
-- Utilize Sass mixins to create reusable styles for buttons, forms, or other UI components.
-- Implement Sass partials to separate styles for different sections or components into separate files.
-
-
-### Level 3: Bonus Requirements (Optional)
-
-
-Peer Review
+- A sticky header or footer to ensure navigation or important information remains visible while scrolling.
+- A responsive layout using CSS Grid or Flexbox for proper alignment and positioning of page elements.
+- A responsive design that adapts to different screen sizes and devices using media queries.
+- CSS animations or transitions to enhance user interactions and visual feedback.
